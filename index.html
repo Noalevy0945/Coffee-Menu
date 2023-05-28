@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<header>
+    <nav class="main-nav">
+        <h1 class="logo-text">
+            <img class="logo-img" src="coffee_masters_logo.png" alt="logo" /> Coffee Masters
+        </h1>
+    </nav>
+</header>
+<main>
+    <div class="page">
+        <section class="box order-box">
+            <h2 class="box-title"> Items </h2>
+            <ul class="items">
+                <li class="item">
+                    <div class="item-amount"> 1X</div>
+                    <div class="item-tytle">capuchino</div>
+                    <div class="item-price">6.00$</div>
+                    <ul class="items-options-list">
+                        <li class="item-option"> light foam </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="item-amount">1X</div>
+                    <div class="item-tytle">capuchino </div>
+                    <div class="item-price"> 7.90$</div>
+                    <ul class="items-options-list">
+                        <li class="item-option"> almond milk</li>
+                        <li class="item-option"> espresso</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="item-amount"> 1X</div>
+                    <div class="item-tytle"> croissant </div>
+                    <div class="item-price"> 5.37$</div>
+                    <ul class="items-options-list">
+                        <li class="item-option"> butter</li>
+                </li>
+            </ul>
+            </ul>
+        </section>
+
+
+
+
+
+
+        <section class=payment>
+            <div class="name-box box">
+                <h2 class="box-title"> Name </h2>
+                <div class="input-group">
+                    <label class="user-input-label" for="name"> Name for order
+                    </label>
+                    <input type="text" class="user-input" id="name" />
+                </div>
+            </div>
+            <div class="payment-box box">
+                <h2 class="box-title"> Payment</h2>
+                <div class="input-group">
+                    <label class="user-input-label" for="cc"> Card Number </label>
+                    <input type="numbers" class="user-input" id="cc">
+                </div>
+                <div class="input-group">
+                    <label class="user-input-label short-label" for="ccv"> Ccv Number </label>
+                    <input type="numbers" class="user-input short-input" id="ccv">
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="total">
+            <table class="total-table">
+                <tbody>
+                    <tr>
+                        <td> subtotal</td>
+                        <td>19.27$ </td>
+
+                    </tr>
+                    <tr>
+                        <td> tax</td>
+                        <td> 0.96$</td>
+                    </tr>
+                    <tr class="final-total">
+                        <td> totel</td>
+                        <td> 20.23$</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="checkout" type="button"> place order </button>
+        </section>
+</main>
+</div>
+</body>
+
+</html>
